@@ -1,0 +1,83 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #d9d9d9;
+        background-color: #202124!important;
+    }
+    a {
+        color: #52a6ff;
+    }
+    img {
+        opacity: .75;
+        transition: opacity .5s ease-in-out;
+    }
+    img:hover {
+        opacity: 1;
+    }
+    .preloader {
+        background-color: #343a40;
+    }
+    .navbar-white, .main-footer {
+        background-color: #343a40;
+        color: #d9d9d9;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #d9d9d9;
+    }
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        color: #ffffff;
+    }
+    .breadcrumb-item.active {
+        color: #ff9d8d;
+    }
+    .content-wrapper {
+        background-color: #202124;
+    }
+    .card-header {
+        border-bottom: 1px solid rgb(255 255 255 / 16%);
+    }
+    .card {
+        background-color: #343a40;
+    }
+    .table-hover tbody tr:hover {
+        color: #ffffff;
+        background-color: rgb(145 145 145 / 8%);
+    }
+    .form-control, .dataTable input {
+        color: #d9d9d9;
+        background-color: #0000009e;
+        border: 2px solid black;
+    }
+    .form-control:focus, .dataTable input:focus {
+        color: #f7f7f7;
+        background-color: #00000073;
+        border: 1px solid #80bdff;
+    }
+    .login-page input {
+        border: 1px solid #ccc;
+    }
+    .jstree-default .jstree-wholerow-clicked {
+        background: #bce3f540!important;
+        background: -webkit-linear-gradient(top, #49585e 0%, #bce3f540 100%)!important;
+        background: linear-gradient(to bottom, #49585e 0%, #bce3f540 100%)!important;
+    }
+    .jstree-default .jstree-wholerow-hovered {
+        background: #bce3f540!important;
+    }
+    .nav-tabs .nav-link {
+        color: white;
+        font-weight: bold;
+    }
+
+    .select2-container--default .select2-selection--single {
+        background-color: #0000009e;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+        color: #d9d9d9;
+    }
+    .select2-container--default.select2-container--focus .select2-selection--multiple, .select2-container--default.select2-container--focus .select2-selection--single {
+        border: 2px solid black;
+    }
+    .tree label, .tree li a, .tree li{
+        color: white;
+    }
+}
